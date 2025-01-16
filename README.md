@@ -10,12 +10,12 @@ brew tap zjt003/tap
 
 - v2rayn:
 ```sh
-brew install v2rayn
+brew install --cask v2rayn
 ```
 
 - mihomo-party:
 ```sh
-brew install mihomo-party
+brew install --cask mihomo-party
 ```
 # OR
 
@@ -23,10 +23,10 @@ brew install mihomo-party
 
 - v2rayn:
 ```sh
-brew install zjt003/tap/v2rayn
+brew install --cask zjt003/tap/v2rayn
 ```
 
 - mihomo-party:
 ```sh
-brew install zjt003/tap/mihomo-party
+brew install --cask zjt003/tap/mihomo-party
 ```
