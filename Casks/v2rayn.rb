@@ -5,7 +5,8 @@ cask "v2rayn" do
   sha256 arm:   "58cf20e2b6921b3725bdc930cb09d1e306384c9018f16010ae91fbb48f04a9c3",
          intel: "778a523d2c15dd8d873c220924791f10f6702f3a9e2205c8ddff2b22268a761a"
 
-  url "https://github.com/2dust/v2rayN/releases/download/#{version}/v2rayN-macos-#{arch}.dmg"
+  url "https://github.com/2dust/v2rayN/releases/download/#{version}/v2rayN-macos-#{arch}.dmg",
+      verified: "github.com/2dust/v2rayN/releases/download/"
   name "v2rayN"
   desc "GUI client for Xray,sing-box..."
   homepage "https://github.com/2dust/v2rayN"
