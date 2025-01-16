@@ -1,4 +1,4 @@
-# Homebrew Tap for apps
+# Homebrew Tap for tap
 
 ## Add this tap to your Homebrew:
 
