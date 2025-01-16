@@ -6,7 +6,7 @@ cask "v2rayn" do
          intel: "778a523d2c15dd8d873c220924791f10f6702f3a9e2205c8ddff2b22268a761a"
 
   url "https://github.com/2dust/v2rayN/releases/download/#{version}/v2rayN-macos-#{arch}.dmg",
-      verified: "github.com/2dust/v2rayN/releases/download/"
+      verified: "github.com/2dust/v2rayN"
   name "v2rayN"
   desc "GUI client for Xray,sing-box..."
   homepage "https://github.com/2dust/v2rayN"
