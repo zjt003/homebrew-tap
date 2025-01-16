@@ -30,3 +30,8 @@ brew install --cask zjt003/tap/v2rayn
 ```sh
 brew install --cask zjt003/tap/mihomo-party
 ```
+
+## 没有签名需要运行:
+```sh
+xattr -cr /Applications/v2rayN.app
+```
