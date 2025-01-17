@@ -19,11 +19,6 @@ cask "rclick" do
   depends_on macos: ">= :big_sur"
 
   app "RClick.app"
-
-  uninstall_preflight do
-    set_ownership "/Library/Application Support/RClick"
-  end
-
-  uninstall delete: "/Library/Application Support/RClick"
+  
   zap trash: "~/Library/Application Support/RClick"
 end
