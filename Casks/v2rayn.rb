@@ -23,5 +23,11 @@ cask "v2rayn" do
 
   app "v2rayN.app"
 
+  uninstall_preflight do
+    set_ownership "/Library/Application Support/v2rayN"
+  end
+
+  uninstall delete: "/Library/Application Support/v2rayN"
+
   zap trash: "~/Library/Application Support/v2rayN"
 end
