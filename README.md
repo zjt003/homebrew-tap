@@ -31,7 +31,7 @@ brew install --cask zjt003/tap/v2rayn
 brew install --cask zjt003/tap/mihomo-party
 ```
 
-## 没有签名需要运行:
+## v2rayN由于安装包没有签名，会提示应用已损坏。解决办法是需要运行:
 ```sh
 xattr -cr /Applications/v2rayN.app
 ```
