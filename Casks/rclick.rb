@@ -1,6 +1,6 @@
 cask "rclick" do
   version "1.5.2"
-  sha256 arm:   "58cf20e2b6921b3725bdc930cb09d1e306384c9018f16010ae91fbb48f04a9c3"
+  sha256 "e952516a003fef2ef78743de1c566856b6d897ad4a449308304b8b5ff64c74ba"
 
   url "https://github.com/wflixu/RClick/releases/download/v#{version}/RClick-v#{version}.app.zip",
       verified: "github.com/wflixu/RClick"
@@ -20,5 +20,10 @@ cask "rclick" do
 
   app "RClick.app"
 
+  uninstall_preflight do
+    set_ownership "/Library/Application Support/RClick"
+  end
+
+  uninstall delete: "/Library/Application Support/RClick"
   zap trash: "~/Library/Application Support/RClick"
 end
