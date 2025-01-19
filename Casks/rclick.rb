@@ -20,5 +20,9 @@ cask "rclick" do
 
   app "RClick.app"
   
-  zap trash: "~/Library/Application Support/RClick"
+  zap trash: [
+      "~/Library/Application Scripts/4L3563XCBN.cn.wflixu.RClick",
+      "~/Library/Application Scripts/cn.wflixu.RClick",
+      "~/Library/Application Scripts/cn.wflixu.RClick.FinderSyncExt"
+    ]
 end
