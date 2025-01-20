@@ -7,7 +7,7 @@ cask "mihomo-party" do
            intel: "a46fc749b23c65f2f295983637ab800b66d79ce3f60da4e5bd1ec7f2aae62052"
 
     url "https://github.com/mihomo-party-org/mihomo-party/releases/download/v#{version}/mihomo-party-catalina-#{version}-#{arch}.pkg",
-        verified: "github.com/mihomo-party-org/mihomo-party/releases/download/"
+        verified: "github.com/mihomo-party-org/mihomo-party"
 
     pkg "mihomo-party-catalina-#{version}-#{arch}.pkg"
   end
@@ -17,7 +17,7 @@ cask "mihomo-party" do
            intel: "3dc5653bc8a34249b986e6c74b6dab732b7c930bcf325749a68f565ef7ca7b78"
 
     url "https://github.com/mihomo-party-org/mihomo-party/releases/download/v#{version}/mihomo-party-macos-#{version}-#{arch}.pkg",
-        verified: "github.com/mihomo-party-org/mihomo-party/releases/download/"
+        verified: "github.com/mihomo-party-org/mihomo-party"
 
     pkg "mihomo-party-macos-#{version}-#{arch}.pkg"
   end
