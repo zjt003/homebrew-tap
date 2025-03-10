@@ -24,8 +24,8 @@ cask "clash-meta-party" do
 
   depends_on macos: ">= :big_sur"
 
-  uninstall launchctl: "party.clash-meta.helper",
-            pkgutil:   "party.clash-meta.app"
+  uninstall launchctl: "party.mihomo.helper",
+            pkgutil:   "party.mihomo.app"
 
   zap trash: "~/Library/Application Support/clash-meta-party"
 end
