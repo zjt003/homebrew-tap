@@ -1,21 +1,21 @@
-cask "clash-meta-party" do
+cask "sparkle" do
   arch arm: "arm64"， intel: "x64"
 
   version "1.6.2"
 
   on_big_sur :or_newer do
-    sha256 arm:   "9cfadb3e29265c6a84b47dda1aba0327d7413aa1bf4d7b7e2861f7536c69f155",
-           intel: "634cfbee97c2fe10c95ba2f2e246f22ad4f0df19f180e98b05edde05cb066747"
+    sha256 arm:   "0d1ccc3e3d8a75dc8909ce385903ea0c4a77705ef79aa0ca17e7f4bdcbbcdec3",
+           intel: "6221453d04ffd5cf88d6c62258f6ac691277a65e086a512adb566cd6309a9a97"
 
-    url "https://github.com/xishang0128/clash-meta-party/releases/download/#{version}/clash-meta-party-macos-#{version}-#{arch}.pkg",
-        verified: "github.com/xishang0128/clash-meta-party"
+    url "https://github.com/xishang0128/sparkle/releases/download/#{version}/sparkle-macos-#{version}-#{arch}.pkg",
+        verified: "github.com/xishang0128/sparkle"
 
-    pkg "clash-meta-party-macos-#{version}-#{arch}.pkg"
+    pkg "sparkle-macos-#{version}-#{arch}.pkg"
   end
 
-  name "Clash Meta Party"
+  name "sparkle"
   desc "Another Mihomo GUI"
-  homepage "https://clash-meta.party"
+  homepage "https://sparkle"
 
   livecheck do
     url :url
@@ -24,8 +24,8 @@ cask "clash-meta-party" do
 
   depends_on macos: ">= :big_sur"
 
-  uninstall launchctl: "party.mihomo.helper",
-            pkgutil:   "party.mihomo.app"
+  uninstall launchctl: "sparkle.helper",
+            pkgutil:   "sparkle.app"
 
-  zap trash: "~/Library/Application Support/clash-meta-party"
+  zap trash: "~/Library/Application Support/sparkle"
 end
