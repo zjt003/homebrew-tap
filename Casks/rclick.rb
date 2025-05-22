@@ -1,6 +1,6 @@
 cask "rclick" do
-  version "1.6.2"
-  sha256 "59b052bd6e7c05cc813f1a1514077ab599a68851929b1a1e9f5d68edd3e4ebec"
+  version "1.6.4"
+  sha256 "dafcc9e39a4f7ee40961b7aec54bcc9180ab68c5dc751adbeef440be78a757e3"
 
   url "https://github.com/wflixu/RClick/releases/download/v#{version}/RClick-v#{version}.app.zip",
       verified: "github.com/wflixu/RClick"
