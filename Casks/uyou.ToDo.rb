@@ -1,10 +1,10 @@
-cask "uyou.ToDo" do
+cask "uyou ToDo" do
   version "3.2.0"
   sha256 "ca487803c9f16257deae8e8a511053a82debe7889fd1540534f0f7a120a49df1"
 
   url "https://github.com/tonylu110/uyou-todo-electron/releases/download/v#{version}/uyou.ToDo-v#{version}-arm64.dmg",
       verified: "github.com/tonylu110/uyou-todo-electron"
-  name "uyou.ToDo"
+  name "uyou ToDo"
   desc "macos todo list"
   homepage "https://github.com/tonylu110/uyou-todo-electron"
 
@@ -18,7 +18,7 @@ cask "uyou.ToDo" do
   auto_updates true
   depends_on macos: ">= :big_sur"
 
-  app "uyou.ToDo.app"
+  app "uyou ToDo.app"
   
-  zap trash: "~/Library/Application Support/uyou.ToDo"
+  zap trash: "~/Library/Application Support/uyou ToDo"
 end
